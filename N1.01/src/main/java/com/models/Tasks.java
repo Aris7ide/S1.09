@@ -14,15 +14,7 @@ public class Tasks {
         return task;
     }
 
-    public void setTask(String task) {
-        this.task = task;
-    }
-
     public Levels getLevel() {
         return level;
-    }
-
-    public void setLevel(Levels level) {
-        this.level = level;
     }
 }

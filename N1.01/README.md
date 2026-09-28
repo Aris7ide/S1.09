@@ -25,4 +25,5 @@ En este nivel trabajaremos la creación de enumbres, el uso en condiciones y cla
 - he creado la clase Tasks dandole como atributos un String task un Level level
 - la clase enum Levels solo lleva los tres niveles LOW, MEDIUM, HIGH
 - he creado un metodo toString en la clase Levels para poder imprimir el tipo de nivel del task.
+- ### he testeado el primer paso con un AssertJ y quitado del main
 - 
