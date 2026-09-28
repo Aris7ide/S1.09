@@ -29,3 +29,5 @@ En este nivel trabajaremos la creación de enumbres, el uso en condiciones y cla
 - ### igual con el segundo paso, he quitado el Main y ajustado Task con TaskTest
 - he copiado la clase alumndo del otro ejercicio
 - he añadido el atributo Level y con un test he comprovado que por cada nivel sale un color diferente
+- he creado un metodo en Alumns getEnum que pasa un String y devuelve el Level
+- en testing he comprobado que si se pasa algo que no sea HIGH MEDIUM LOW el metodo lanza una excepcion
