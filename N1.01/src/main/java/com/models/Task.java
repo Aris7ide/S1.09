@@ -1,11 +1,11 @@
 package com.models;
 
-public class Tasks {
+public class Task {
 
     private String task;
     private Levels level;
 
-    public Tasks(String task, Levels level) {
+    public Task(String task, Levels level) {
         this.task = task;
         this.level = level;
     }

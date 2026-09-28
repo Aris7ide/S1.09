@@ -26,4 +26,6 @@ En este nivel trabajaremos la creación de enumbres, el uso en condiciones y cla
 - la clase enum Levels solo lleva los tres niveles LOW, MEDIUM, HIGH
 - he creado un metodo toString en la clase Levels para poder imprimir el tipo de nivel del task.
 - ### he testeado el primer paso con un AssertJ y quitado del main
-- 
+- ### igual con el segundo paso, he quitado el Main y ajustado Task con TaskTest
+- he copiado la clase alumndo del otro ejercicio
+- he añadido el atributo Level y con un test he comprovado que por cada nivel sale un color diferente
