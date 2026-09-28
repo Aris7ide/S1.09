@@ -24,4 +24,5 @@ Aprenderás a representar el tiempo con precisión ( LocalDate, LocalTime, Local
 - con LocalDate.now() y LocalTime y LocalDateTime se pueden imprimir
 - creando dos fechas con LocalDate.of() y creando un objeto Period, se puede llamar la diferencia entre años,meses,dias
 - con plus/minusDays/Months/minutes/years etc etc se pueden añadir o restar cifras.
+- con DateFormatter se puede reformatear la hora siguiendo un pattern escrito EEEE, hh, dd etc etc
 - 

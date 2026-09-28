@@ -2,6 +2,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Period;
+import java.time.format.DateTimeFormatter;
 
 public class Main {
     static void main(String[] args) {
@@ -28,6 +29,11 @@ public class Main {
 
         System.out.println(localDateTime2);
 
+        // Fourth step
+        LocalDateTime now = LocalDateTime.now();
+
+        DateTimeFormatter f1 = DateTimeFormatter.ofPattern("EEEE-yyyy-hh");
+        System.out.println(now.format(f1));
 
     }
 }
