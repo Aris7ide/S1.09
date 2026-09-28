@@ -24,12 +24,12 @@ public class Alumns {
         };
     }
 
-    public static Levels getEnum (String i) {
+    public static void getEnum (String i) {
 
         if (!i.equals("LOW") && !i.equals("MEDIUM") && !i.equals("HIGH")) {
             throw new IllegalArgumentException("The parameter is not right");
         }
-        return Levels.valueOf(i);
+        Levels.valueOf(i);
 
     }
 
