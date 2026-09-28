@@ -19,6 +19,10 @@ En este nivel trabajaremos la creación de enumbres, el uso en condiciones y cla
 - **IDE**: IntelliJ IDEA
 
 ## Excecution
-
-Main - ConsoleReader - ConsoleUI - Service - Person
-y un CSV llamado people.csv
+- he creado la clase Enums Days con los dias de la semana
+- he usado un metodo checkDays que con un switch pueda decir si es weekday or weekend.
+- lo he llamado desde el main pasando un day.
+- he creado la clase Tasks dandole como atributos un String task un Level level
+- la clase enum Levels solo lleva los tres niveles LOW, MEDIUM, HIGH
+- he creado un metodo toString en la clase Levels para poder imprimir el tipo de nivel del task.
+- 
