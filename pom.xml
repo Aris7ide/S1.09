@@ -11,6 +11,7 @@
     <modules>
         <module>N1.01</module>
         <module>N2.01</module>
+        <module>N3.01</module>
     </modules>
 
     <properties>
