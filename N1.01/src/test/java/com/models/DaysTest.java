@@ -19,4 +19,10 @@ class DaysTest {
     void shouldBeWeekday(Days day) {
         assertThat(Days.checkDays(day)).isEqualTo(day + " is weekday");
     }
+
+    @ParameterizedTest
+    @CsvSource({"SUNDAY","SATURDAY"})
+    void shouldNotBeWeekend(Days day) {
+        assertThat(Days.checkDays(day)).isNotEqualTo(day + " is weekday");
+    }
 }

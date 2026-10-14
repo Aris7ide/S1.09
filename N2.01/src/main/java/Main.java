@@ -29,11 +29,19 @@ public class Main {
 
         System.out.println(localDateTime2);
 
-        // Fourth step
+        // Fourth point
         LocalDateTime now = LocalDateTime.now();
 
         DateTimeFormatter f1 = DateTimeFormatter.ofPattern("EEEE-yyyy-hh");
         System.out.println(now.format(f1));
+
+        DateTimeFormatter f2 = DateTimeFormatter.ofPattern("HH-mm-ss");
+        System.out.println(now.format(f2));
+
+        // Fifth point
+        Methods methods = new Methods();
+        System.out.println(methods.passedDate(LocalDate.of(2025,9,20)));
+
 
     }
 }

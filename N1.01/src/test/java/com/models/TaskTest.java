@@ -12,4 +12,10 @@ class TaskTest {
         assertThat(task.getLevel().toString()).isEqualTo("LOW");
     }
 
+    @Test
+    void shouldBeHigh() {
+        Task task = new Task("Buy milk",Levels.HIGH);
+        assertThat(task.getLevel().toString()).isEqualTo("HIGH");
+    }
+
 }

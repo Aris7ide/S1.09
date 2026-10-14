@@ -25,4 +25,4 @@ Aprenderás a representar el tiempo con precisión ( LocalDate, LocalTime, Local
 - creando dos fechas con LocalDate.of() y creando un objeto Period, se puede llamar la diferencia entre años,meses,dias
 - con plus/minusDays/Months/minutes/years etc etc se pueden añadir o restar cifras.
 - con DateFormatter se puede reformatear la hora siguiendo un pattern escrito EEEE, hh, dd etc etc
-- 
+- he creado un método en una classe Methods llamado datePassed que verifica con .isBefore si la fecha ya ha pasado comparándola a un LocalDate.now
