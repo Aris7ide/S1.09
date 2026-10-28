@@ -20,7 +20,4 @@ Este nivel te servirá para entender cómo crear y utilizar recuerdos, añadir l
 - **IDE**: IntelliJ IDEA
 
 ## Execution
-- he creado la clase record Person, instanciando los atributos en parentesis
-- le he puesto un metodo getName() en el recuerdo
-- para validar el constructor he puesto un if directamente en el constructor y validado con un test
-- he hecho una clase con la lista poeple y testeado el metodo getMajors().
+- Empezo desde 0 el ejercicio
